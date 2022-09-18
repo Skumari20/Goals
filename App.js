@@ -1,12 +1,8 @@
-//
 import React, {PureComponent} from 'react';
 import {AppRegistry, StyleSheet, StatusBar} from 'react-native';
 import {GameEngine} from 'react-native-game-engine';
-// import {Finger} from './renderers';
 import {Finger} from './src/renderers';
 import {MoveFinger} from './src/systems';
-
-// import {MoveFinger} from './systems';
 
 export default class App extends PureComponent {
   constructor() {
